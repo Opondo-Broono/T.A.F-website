@@ -1,0 +1,70 @@
+/*
+Theme Name: TAF
+Theme URI: http://github.com/TAF/
+Description: Theme for TAF Church's Website
+Author: OPONDO BROONO
+Author URI: http://opondo-broono.netlify.com
+Version: 1.0.40
+*/
+
+@import 'sass/components/bootstrap';
+
+/* $container-width : 1360px; */
+
+body {
+  font-family: Lato;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+p {
+  font-weight: 400;
+}
+
+ul, ol {
+  padding-left: 20px;}
+
+  li {
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+
+
+blockquote {
+  font-style: italic;
+  padding-left: 20px;
+}
+
+@import 'sass/colors';
+@import 'sass/fonts';
+@import 'sass/theme';
+@import 'sass/ui_utils';
+@import 'sass/components/nav';
+@import 'sass/components/footer';
+@import 'sass/components/carousel';
+@import 'sass/components/modal';
+@import 'sass/components/countdown_timer';
+@import 'sass/pages/pages';
+@import 'sass/pages/groups';
+@import 'sass/pages/about';
+@import 'sass/pages/volunteering';
+@import 'sass/pages/sundays';
+@import 'sass/pages/ministries';
+@import 'sass/pages/get-connected';
+@import 'sass/pages/faq';
+@import 'sass/pages/partnerships';
+@import 'sass/pages/home';
+@import 'sass/pages/events';
+@import 'sass/pages/media';
+@import 'sass/pages/stories';
+@import 'sass/pages/40days';
+@import 'sass/pages/home-campaign';
